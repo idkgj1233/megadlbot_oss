@@ -58,15 +58,15 @@
         },
         "WEB_SERVER_BIND_ADDRESS":{
             "description": "Address with Web Server to bind with",
-            "required": true
+            "required": false
         },
         "WEB_SERVER_PORT":{
             "description": "Port for the Web Server to listen to",
-            "required": true
+            "required": false
         },
         "WEB_SERVER_FQDN":{
             "description": "Fully Qualified Name for Webserver to stream files",
-            "required": true
+            "required": false
         }
     },
     "buildpacks": [{
